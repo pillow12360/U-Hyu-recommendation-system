@@ -21,3 +21,4 @@ Thumbs.db
 *.log
 *.csv
 app/recommendations.csv.env
+.env
