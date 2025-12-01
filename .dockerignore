@@ -10,6 +10,4 @@ venv/
 .gitignore
 .idea
 .vscode
-Dockerfile
-docker-compose.yml
 README.md
