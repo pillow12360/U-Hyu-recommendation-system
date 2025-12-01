@@ -1,4 +1,3 @@
-.env
 
 # Python
 __pycache__/
@@ -7,8 +6,6 @@ __pycache__/
 *.so
 .Python
 env/
-venv/
-.venv/
 
 # IDE
 .idea/
@@ -23,4 +20,4 @@ Thumbs.db
 # Project specific
 *.log
 *.csv
-app/recommendations.csv
+app/recommendations.csv.env

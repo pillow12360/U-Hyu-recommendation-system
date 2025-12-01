@@ -1,0 +1,18 @@
+services:
+  recommender:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: uhyu-recommender
+    env_file:
+      - ./.env
+    # depends_on:
+    #   - db  # TODO: db 서비스가 정의되어 있지 않습니다.
+    networks:
+      - uhyu-net
+    ports:
+      - "18000:8000"
+
+networks:
+  uhyu-net:
+    driver: bridge
